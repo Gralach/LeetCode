@@ -4,4 +4,3 @@ FROM Signups s
 LEFT JOIN Confirmations c
 ON s.user_id = c.user_id
 GROUP BY 1
-ORDER BY 2
